@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.music-player {
+    
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 300px;
+}
+
+.controls {
+    margin: 20px 0;
+}
+
+.button-play {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px;
+    margin: 0 5px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.button-pause {
+    background-color: #f62a06;
+    border: none;
+    color: white;
+    padding: 10px;
+    margin: 0 5px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px;
+    margin: 0 5px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: lightgreen;
+}
+
+.image{
+    height:200px;
+    width:200px;
+    border-radius: 10px;
+}
+
+.song-title{
+    font-weight: bold;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+.artist{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#playlist {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#playlist li {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #ddd;
+}
+
+#playlist li:hover {
+    background-color: #f0f0f0;
+}
+
+.song-info {
+    margin-top: 10px;
+}
+
+#song-title {
+    font-size: 18px;
+    margin: 0;
+}
